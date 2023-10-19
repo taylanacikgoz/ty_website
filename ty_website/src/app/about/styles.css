@@ -1,0 +1,199 @@
+.sun {
+  margin-top: 250px;
+  padding: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 70px #ffffff;
+  position: relative;
+}
+
+.deneme {
+  padding: 0px;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.javascript {
+  padding: 20px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform-origin: top left;
+  animation: rotate-javascript 5s linear infinite;
+}
+
+.nodejs {
+  padding: 30px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform-origin: top left;
+  animation: rotate-nodejs 8s linear infinite;
+}
+
+.reactjs {
+  padding: 30px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  right: 50%;
+  transform-origin: top right;
+  animation: rotate-reactjs 8s linear infinite;
+}
+.nextjs {
+  padding: 30px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  right: 50%;
+  transform-origin: top right;
+  animation: rotate-reactjs 10s linear infinite;
+}
+.sql {
+  padding: 30px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform-origin: top left;
+  animation: rotate-nextjs 10s linear infinite;
+}
+.mssql {
+  padding: 30px;
+  position: absolute;
+  border-radius: 50%;
+  top: 60%;
+  left: 60%;
+  transform-origin: top left;
+  animation: rotate-mssql 10s linear infinite;
+}
+.mongodb {
+  padding: 30px;
+  position: absolute;
+  border-radius: 50%;
+  top: 70%;
+  left: 70%;
+  transform-origin: top left;
+  animation: rotate-mongodb 12s linear infinite;
+}
+.figma {
+  padding: 30px;
+  position: absolute;
+  border-radius: 50%;
+  top: 60%;
+  transform-origin: top;
+  animation: rotate-figma 12s linear infinite;
+}
+.framer {
+  padding: 30px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform-origin: top left;
+  animation: rotate-framer 15s linear infinite;
+}
+.github {
+  padding: 30px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  bottom: 50%;
+  transform-origin: top bottom;
+  animation: rotate-github 15s linear infinite;
+}
+
+@keyframes rotate-javascript {
+  0% {
+    transform: rotate(0deg) translateY(100px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(100px);
+  }
+}
+
+@keyframes rotate-nodejs {
+  0% {
+    transform: rotate(0deg) translateX(150px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(150px);
+  }
+}
+
+@keyframes rotate-reactjs {
+  0% {
+    transform: rotate(0deg) translateY(150px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(150px);
+  }
+}
+@keyframes rotate-nextjs {
+  0% {
+    transform: rotate(0deg) translateY(160px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(160px);
+  }
+}
+@keyframes rotate-sql {
+  0% {
+    transform: rotate(0deg) translateY(180px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(180px);
+  }
+}
+@keyframes rotate-mssql {
+  0% {
+    transform: rotate(0deg) translateX(180px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(180px);
+  }
+}
+@keyframes rotate-mongodb {
+  0% {
+    transform: rotate(0deg) translateY(220px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(220px);
+  }
+}
+@keyframes rotate-figma {
+  0% {
+    transform: rotate(0deg) translateX(220px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateX(220px);
+  }
+}
+@keyframes rotate-framer {
+  0% {
+    transform: rotate(0deg) translateY(250px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(250px);
+  }
+}
+@keyframes rotate-github {
+  0% {
+    transform: rotate(0deg) translateY(250px);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(250px);
+  }
+}
