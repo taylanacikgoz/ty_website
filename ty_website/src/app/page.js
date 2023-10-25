@@ -12,10 +12,6 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <main className="flex flex-col gap-20 bg-cover bg-center bg-[url('../../public/Images/sam3.jpg')] object-cover bg-no-repeat">
-      <div className="sm:sticky sm:top-0">
-        <Header />
-      </div>
-
       <section className="flex flex-col items-center gap-20">
         <div className="flex flex-col gap-1 items-center">
           <motion.div
