@@ -11,7 +11,7 @@
   "dependencies": {
     "@nextui-org/react": "^2.1.13",
     "framer-motion": "^10.16.4",
-    "next": "latest",
+    "next": "13.5.2",
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^4.11.0"
