@@ -24,12 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${monoton.variable} ${spaceMono.variable}`}>
       <body suppressHydrationWarning={true}>
-        <Providers>
-          <header>
-            <Header />
-          </header>
-          <section>{children}</section>
-        </Providers>
+        <section>{children}</section>
       </body>
     </html>
   );

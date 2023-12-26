@@ -5,7 +5,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
-    <header className="bg-[#404040] bg-opacity-70 sticky top-0">
+    <header className="bg-[#343333] bg-opacity-70 sticky top-0">
       <Navbar />
     </header>
   );

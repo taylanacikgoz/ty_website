@@ -39,6 +39,7 @@ export default function About() {
       className="bg-[url('../../public/Images/sam2.jpg')] flex flex-col gap-20 bg-cover bg-center
     object-cover bg-no-repeat "
     >
+      <Header />
       <section className="flex flex-col items-center">
         <p className="font-content text-center p-5 w-full lg:w-3/5 text-white text-xl leading-10">
           Taylan, a coding prodigy from Turkey, is harnessing the power of

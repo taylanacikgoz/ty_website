@@ -43,8 +43,8 @@ const Navbar = () => {
       <nav className="flex flex-col md:flex md:flex-row lg:gap-20 gap-5 font-bold text-2xl font-content text-white">
         <Link href="/about">About</Link>
         <Link href="/blog">Blog</Link>
-        <Link href="/">Portfolio</Link>
-        <Link href="/">Contact</Link>
+        <Link href="/portfolio">Portfolio</Link>
+        <Link href="/contact">Contact</Link>
       </nav>
       <div className="flex flex-row gap-5 cursor-pointer">
         {isSoundOpen ? (
