@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        homeBgImg: "",
+        dashboard: "url('./public/Images/portfolio/dashboard.jpg')",
       },
       fontFamily: {
         content: ["var(--font-space-mono)"],
