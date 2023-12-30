@@ -9,10 +9,10 @@ import Nodejs from "../../../public/Images/Nodejs.png";
 import Reactjs from "../../../public/Images/Reactjs.jpg";
 import sql from "../../../public/Images/sql.jpg";
 import mssql from "../../../public/Images/mssql.jpg";
-import Mongodb from "../../../public/Images/Mongodb.png";
+import MongoDb from "../../../public/Images/MongoDb.png";
 import Figma from "../../../public/Images/Figma.jpg";
-import Framer from "../../../public/Images/Framer.png";
-import Github from "../../../public/Images/Github.png";
+import Framer from "../../../public/Images/framer.png";
+import GitHub from "../../../public/Images/GitHub.png";
 import Javascript from "../../../public/Images/Javascript.png";
 import Matrix from "../../../public/Images/Matrix.jpeg";
 import Nextjs from "../../../public/Images/Nextjs.jpg";
@@ -127,7 +127,7 @@ export default function About() {
               </div>
               <div className="mongodb">
                 <Image
-                  src={Mongodb}
+                  src={MongoDb}
                   alt=""
                   fill
                   className="border border-solid border-black rounded-full object-cover"
@@ -151,7 +151,7 @@ export default function About() {
               </div>
               <div className="github">
                 <Image
-                  src={Github}
+                  src={GitHub}
                   alt=""
                   fill
                   className="border border-solid border-black rounded-full object-cover"
