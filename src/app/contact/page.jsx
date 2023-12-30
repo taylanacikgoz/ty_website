@@ -1,14 +1,20 @@
 import Header from "@/Components/Header/Header";
 import React from "react";
 import Footer from "../../Components/Footer/Footer";
+import ContactPage from "@/Components/ContactPage/contact";
+import styles from "../../Components/ContactPage/contact.module.css";
 
-const ContactPage = () => {
+const Contact = () => {
   return (
-    <div>
-      <Header /> ContactPage
+    <main className={styles.main}>
+      <Header />
+      <div className="flex flex-col items-center justify-center gap-5">
+        <ContactPage />
+      </div>
+
       <Footer />
-    </div>
+    </main>
   );
 };
 
-export default ContactPage;
+export default Contact;
