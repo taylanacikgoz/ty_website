@@ -2,11 +2,11 @@
 
 import Image from "next/image";
 import "./globals.css";
-import Header from "../Components/Header/Header";
+import Header from "@/components/Header/header";
+import { Footer } from "@/components/Footer/footer";
 import Explore_Arrow from "../../public/Images/Explore_Arrow.png";
 import Post_Img from "../../public/Images/Post_Img.png";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
-import Footer from "@/Components/Footer/Footer";
 import { motion } from "framer-motion";
 
 export default function Home() {

@@ -1,9 +1,8 @@
 "use client";
-
-import Footer from "@/Components/Footer/Footer";
-import Header from "@/Components/Header/Header";
+import { Footer } from "@/components/Footer/footer";
+import Header from "@/components/Header/header";
 import React, { useState } from "react";
-import "./styles.css";
+import styles from "./styles.module.css";
 import Image from "next/image";
 import Nodejs from "../../../public/Images/Nodejs.png";
 import Reactjs from "../../../public/Images/Reactjs.jpg";
@@ -16,7 +15,7 @@ import GitHub from "../../../public/Images/GitHub.png";
 import Javascript from "../../../public/Images/Javascript.png";
 import Matrix from "../../../public/Images/Matrix.jpeg";
 import Nextjs from "../../../public/Images/Nextjs.jpg";
-import { Skills } from "@/Components/SkillsCard/Skills";
+import { Skills } from "@/components/SkillsCard/Skills";
 import {
   Modal,
   ModalContent,
@@ -85,7 +84,7 @@ export default function About() {
             </ModalContent>
           </Modal>
 
-          <div className="sun" onClick={handleShowSkills}>
+          <div className={styles.sun} onClick={handleShowSkills}>
             <Image
               src={Matrix}
               alt=""
@@ -93,7 +92,7 @@ export default function About() {
               className="border border-solid rounded-full object-cover"
             />
             <div className="max-sm:hidden">
-              <div className="nodejs">
+              <div className={styles.nodejs}>
                 <Image
                   src={Nodejs}
                   alt=""
@@ -101,7 +100,7 @@ export default function About() {
                   className="border border-solid rounded-full object-cover"
                 />
               </div>
-              <div className="reactjs">
+              <div className={styles.reactjs}>
                 <Image
                   src={Reactjs}
                   alt=""
@@ -109,7 +108,7 @@ export default function About() {
                   className="border border-solid border-black rounded-full object-cover"
                 />
               </div>
-              <div className="sql">
+              <div className={styles.sql}>
                 <Image
                   src={sql}
                   alt=""
@@ -117,7 +116,7 @@ export default function About() {
                   className="border border-solid border-black rounded-full object-cover"
                 />
               </div>
-              <div className="mssql">
+              <div className={styles.mssql}>
                 <Image
                   src={mssql}
                   alt=""
@@ -125,7 +124,7 @@ export default function About() {
                   className="border border-solid border-black rounded-full object-cover"
                 />
               </div>
-              <div className="mongodb">
+              <div className={styles.mongodb}>
                 <Image
                   src={MongoDb}
                   alt=""
@@ -133,7 +132,7 @@ export default function About() {
                   className="border border-solid border-black rounded-full object-cover"
                 />
               </div>
-              <div className="figma">
+              <div className={styles.figma}>
                 <Image
                   src={Figma}
                   alt=""
@@ -141,7 +140,7 @@ export default function About() {
                   className="border border-solid border-black rounded-full object-cover"
                 />
               </div>
-              <div className="framer">
+              <div className={styles.framer}>
                 <Image
                   src={Framer}
                   alt=""
@@ -149,7 +148,7 @@ export default function About() {
                   className="border border-solid border-black rounded-full object-cover"
                 />
               </div>
-              <div className="github">
+              <div className={styles.github}>
                 <Image
                   src={GitHub}
                   alt=""
@@ -157,7 +156,7 @@ export default function About() {
                   className="border border-solid border-black rounded-full object-cover"
                 />
               </div>
-              <div className="javascript">
+              <div className={styles.javascript}>
                 <Image
                   src={Javascript}
                   alt=""
@@ -165,7 +164,7 @@ export default function About() {
                   className="border border-solid border-black rounded-full object-cover"
                 />
               </div>
-              <div className="nextjs">
+              <div className={styles.nextjs}>
                 <Image
                   src={Nextjs}
                   alt=""

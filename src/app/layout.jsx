@@ -1,7 +1,5 @@
 import { Monoton, Space_Mono } from "next/font/google";
 import { Providers } from "./providers";
-import Navbar from "@/Components/Navbar/Navbar";
-import Header from "@/Components/Header/Header";
 
 export const metadata = {
   title: "Create Next App",
@@ -24,7 +22,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${monoton.variable} ${spaceMono.variable}`}>
       <body suppressHydrationWarning={true}>
-        <section>{children}</section>
+        <Providers>
+          <section>{children}</section>
+        </Providers>
       </body>
     </html>
   );

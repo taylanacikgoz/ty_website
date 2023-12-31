@@ -17,18 +17,19 @@ const Navbar = () => {
     if (audio === null) {
       setAudio(new Audio(Audio1));
     }
-  }, []);
+  }, [audio]);
 
   const handleSoundOpener = async () => {
     if (audio) {
-      await audio.play();
+      audio.play();
       setIsSoundOpen(true);
     }
   };
 
   const handleSoundCloser = async () => {
     if (audio) {
-      audio.pause();
+      await audio.pause();
+
       setIsSoundOpen(false);
     }
   };

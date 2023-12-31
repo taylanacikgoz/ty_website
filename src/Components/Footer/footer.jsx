@@ -4,7 +4,7 @@ import { PiLinkedinLogoBold } from "react-icons/pi";
 import { PiCodesandboxLogoLight } from "react-icons/pi";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
 
-export default function Footer() {
+export const Footer = () => {
   return (
     <footer className="flex flex-col gap-5 items-center sm:flex sm:flex-row justify-between p-5 text-gray-400">
       <span className="font-content text-sm">
@@ -18,4 +18,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};

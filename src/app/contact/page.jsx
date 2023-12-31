@@ -1,7 +1,7 @@
-import Header from "@/Components/Header/Header";
 import React from "react";
-import Footer from "../../Components/Footer/Footer";
-import ContactPage from "@/Components/ContactPage/contact";
+import Header from "@/components/Header/header";
+import { Footer } from "@/components/Footer/footer";
+import ContactPage from "@/components/ContactPage/contact";
 import styles from "../../Components/ContactPage/contact.module.css";
 
 const Contact = () => {

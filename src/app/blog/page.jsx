@@ -1,6 +1,6 @@
 import React from "react";
-import { PostCard } from "@/Components/BlogPostCard/PostCard";
-import Header from "@/Components/Header/Header";
+import { PostCard } from "@/components/BlogPostCard/postCard";
+import Header from "@/components/Header/header";
 
 async function getPosts() {
   const res = await fetch("https://dummyjson.com/posts/?limit=10", {
@@ -16,7 +16,7 @@ export default async function Blog() {
       <Header />
       <div className="flex flex-wrap">
         {posts.map((post) => (
-          <div className="p-10 w-1/2">
+          <div key={post.id} className="p-10 w-1/2">
             <PostCard {...post} />
           </div>
         ))}
